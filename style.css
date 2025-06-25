@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    font-family: 'Gilroy';
+}
+
+#background_img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    aspect-ratio: 16/9;
+}
